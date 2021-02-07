@@ -1,6 +1,5 @@
 #include<iostream>
 #include<bits/stdc++.h>
-
 using namespace std;
 
 
@@ -8,14 +7,15 @@ int main()
 {
     int n;
     cin>>n;
-    float sum=1;
-    int i;
-    for(i=2;i<=n;i++)
-    {
-        sum=sum+(1/i);
-        cout<<"Total Sum is:"<<sum<<endl;
 
-    }
+    double i;
+    double s=0;
+        for( i=1;i<=n;i++)
+        {
+            s=s+1/i;
+        }
+
+    cout<<"Toatal Sum is:"<<s<<endl;
 
     return 0;
 }
