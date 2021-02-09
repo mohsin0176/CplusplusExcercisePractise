@@ -10,8 +10,7 @@ int b=20;
 int &test()
 {
     int z=a+b;
-    int &s=z;
-    return s;
+    return z;
 }
 int main()
 {
