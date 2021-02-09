@@ -14,6 +14,7 @@ int main()
     int b=20;
     int &num1=a;
     int &num2=b;
+    cout<<num1<<num2<<endl;
     cout<<add(num1,num2);
     return 0;
 }

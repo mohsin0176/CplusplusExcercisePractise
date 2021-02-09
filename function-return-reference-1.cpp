@@ -3,19 +3,21 @@
 using namespace std;
 
 int num;
-
+int a=10;
+int b=20;
 
 
 int &test()
 {
-
-    return num;
+    int z=a+b;
+    int &s=z;
+    return s;
 }
 int main()
 {
-    test()=5;
+    test();
 
-    cout <<num;
+    cout <<test();
 
     return 0;
 }
