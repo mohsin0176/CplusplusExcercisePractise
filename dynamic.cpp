@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
     // declare an int pointer
-    int *pointInt;
+    int *pointInt=NULL;
 
     // declare a float pointer
-    float *pointFloat;
+    float *pointFloat=NULL;
 
     // dynamically allocate memory
     pointInt = new int();
