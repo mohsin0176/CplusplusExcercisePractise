@@ -5,7 +5,7 @@ using namespace std;
 struct TNode{
 struct TNode *next;
 string item_name;
- Money price;
+Money price;
 };
 class CreditCard{
 string owner_name;
